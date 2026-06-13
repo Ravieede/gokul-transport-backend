@@ -18,7 +18,7 @@ import com.codinghub.DriverInterFace.DriverServiceInterFace;
 
 @RestController()
 @RequestMapping("/api/drivers")
-@CrossOrigin(origins="http://localhost:3000")
+@CrossOrigin(origins={"http://localhost:3000","https://gokul-transport-admin.vercel.app",})
 public class DriverController 
 {
 	@Autowired

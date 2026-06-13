@@ -18,7 +18,7 @@ import com.codinghub.VehiclesServiceInterface.VehiclesServiceInterface;
 
 @RestController
 @RequestMapping("/api/vehicles")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000","https://gokul-transport-admin.vercel.app"})
 public class VehiclesController {
 
     @Autowired
